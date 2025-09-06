@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* clerk-user button adjust */
+.cl-avatarBox{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* carousel arrow */
+.arrows{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}
+
+/* input colours */
+input{
+    background-color: #ffffff;
+    accent-color: red;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+/* Success toast progress bar */
+.Toastify__progress-bar--success {
+  background: #22c55e !important; /* green */
+}
+
+/* Error toast progress bar */
+.Toastify__progress-bar--error {
+  background: #ef4444 !important; /* red */
+}
+
+/* Info toast progress bar */
+.Toastify__progress-bar--info {
+  background: #3b82f6 !important; /* blue */
+}
+
+/* Warning toast progress bar */
+.Toastify__progress-bar--warning {
+  background: #facc15 !important; /* yellow */
+}
+
+
+@media (max-width: 640px) {
+  .Toastify__toast {
+    font-size: 0.8rem !important;   /* smaller text */
+    min-height: 40px !important;    /* reduce height */
+    padding: 6px 10px !important;   /* compact padding */
+    border-radius: 6px !important;  /* tighter corners */
+    max-width: 80% !important;      /* shrink width */
+    margin: 0 auto !important;      /* center it horizontally */
+  }
+
+  .Toastify__toast-body {
+    font-size: 0.8rem !important;   /* shrink body text */
+  }
+
+  .Toastify__close-button {
+    transform: scale(0.8) !important; /* smaller close button */
+  }
+
+  .Toastify__progress-bar {
+    height: 2px !important; /* thinner progress bar */
+  }
+}
