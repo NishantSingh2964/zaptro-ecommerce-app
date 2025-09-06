@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getData } from "../context/DataContext";
-import Loading from "../assets/src_assets_loading4.webm";
+import Loading from "../assets/src_assets_Loading4.webm";
 import { ChevronLeft } from "lucide-react";
 import ProductListView from "../components/ProductListView";
 
