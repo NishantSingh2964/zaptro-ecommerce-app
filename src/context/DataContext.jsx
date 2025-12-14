@@ -6,8 +6,8 @@ export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
     const [data, setData] = useState([]);
-    //const url = 'https://fakestoreapi.in/api/products?limit=150'
-    const url = 'https://fakestoreapi.com/products?limit=150'
+    const url = 'https://fake-store-api.mock.beeceptor.com/api/products?limit=150'
+    //const url = 'https://fakestoreapi.com/products?limit=150'
 
     // fatching all products from api
 
